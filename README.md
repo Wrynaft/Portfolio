@@ -1,35 +1,60 @@
 # 🗺 Ryan's Portfolio
 
-Welcome to my portfolio, where I document a summary of all my projects.
+Welcome to my portfolio! This repository serves as a summary of my projects across Artificial Intelligence, Data Science, Data Engineering, and Software Engineering.
 
 ## 📚 Table of Contents
-- [AI](#ai)
-- [Data Engineering](#data-engineering)
-- [Data Analytics](#data-analytics)
-- [Java](#java)
+- [🧠 Artificial Intelligence & NLP](#-artificial-intelligence--nlp)
+- [🔬 Data Science & Machine Learning](#-data-science--machine-learning)
+- [📊 Data Analytics & Business Intelligence](#-data-analytics--business-intelligence)
+- [⚙️ Data Engineering](#️-data-engineering)
+- [💻 Software Engineering](#-software-engineering)
 
-# AI
-| Project Link | Tech Stack | Project Description | 
+---
+
+## 🧠 Artificial Intelligence & NLP
+*Projects focused on Large Language Models (LLMs), Generative AI, and Natural Language Processing.*
+
+| Project | Description | Tech Stack | 
 |---|---|---|
-| [RoundtableAI: LLM-Based Multi-Agent System for Bursa Stock Portfolio Construction](https://github.com/Wrynaft/RoundtableAI) | Gemini, LangChain, Streamlit, MongoDB, FinBERT, APIs, and other Python libraries | An intelligent stock analysis and portfolio management system designed specifically for the Bursa Malaysia market by employing a Multi-Agent System (MAS) that utilizes Large Language Models (LLMs) to synthesize fragmented data and provide transparent investment recommendations. Implements the full CRISP-DM lifecycle, with a multi-modal data integration and multi-agent debate framework. |
-| 📱 [Malaysian Tweet Normalizer](https://github.com/Wrynaft/Tweet-Normalizer) | PyTorch, HuggingFace Transformers, Gradio, Pandas, NumPy, NLTK, FastText, PyEnchant, etc. | A Natural Language Processing (NLP) project that normalizes noisy, informal Malaysian tweets (containing slang, abbreviations, and misspellings in both Malay and English) into standard, formal text, either in English or Malay. |
-| [Bankruptcy Prediction](https://colab.research.google.com/drive/19hftcE8RPMA4mWT7ayhcI64Zu9vcene8?usp=sharing) | NumPy, Pandas, scikit-learn, auto-sklearn, Matplotlib, Searborn | A machine learning project focused on predicting company bankruptcy. Developed and evaluated models such as XGBoost, Ridge Regression, Random Forest, etc. with data cleaning, feature engineering, imbalanced classes addressing and hyperparameter tuning. |
+| 🤖 **[RoundtableAI: LLM-Based Multi-Agent System](https://github.com/Wrynaft/RoundtableAI)** | An intelligent stock analysis and portfolio management system for the Bursa Malaysia market. Employs a Multi-Agent System (MAS) and LLMs to synthesize fragmented data and provide transparent investment recommendations. | Gemini, LangChain, Streamlit, MongoDB, FinBERT, Python |
+| 📱 **[Malaysian Tweet Normalizer](https://github.com/Wrynaft/Tweet-Normalizer)** | An NLP project that normalizes noisy, informal Malaysian tweets (containing slang, abbreviations, and misspellings) into standard, formal text in both English and Malay. | PyTorch, HuggingFace, Gradio, FastText, NLTK, Pandas |
 
-# Data Engineering
-| Project Link | Tools | Project Description | 
+---
+
+## 🔬 Data Science & Machine Learning
+*Projects covering the end-to-end data lifecycle: EDA, feature engineering, and predictive modeling.*
+
+| Project | Description | Tech Stack | 
 |---|---|---|
-| [Hadoop vs Spark Performance Comparison](https://github.com/Wrynaft/Hadoop-Spark-Comparison) | Apache Hadoop (Java), Apache Spark (Scala) | This project compares the performance of Apache Hadoop (MapReduce) and Apache Spark by implementing and benchmarking three queries on the same dataset. The goal is to evaluate and contrast how these two big data processing frameworks handle identical workloads. |
+| 💰 **[AI-Enhanced Financial Analytics](https://github.com/Wrynaft/FinancialDataMining)** | Encompasses dataset simulation, feature engineering, predictive modelling, and model interpretation in the financial domain using traditional ML alongside GenAI and Small Language Models (SLMs). | Pandas, NumPy, Gemini, Mistral, BART, scikit-learn |
+| 🌧️ **[KL Weather Prediction](https://github.com/Wrynaft/WeatherPrediction)** | Analyzes historical weather data and forecasts rainfall patterns for Kuala Lumpur. Includes data retrieval, cleaning, EDA, feature engineering, and the evaluation of five ML regression models. | Streamlit, Pandas, NumPy, scikit-learn, Joblib |
+| 📉 **[Bankruptcy Prediction](https://colab.research.google.com/drive/19hftcE8RPMA4mWT7ayhcI64Zu9vcene8?usp=sharing)** | A machine learning project predicting company bankruptcy. Developed and evaluated models (XGBoost, Ridge Regression, Random Forest) with data cleaning, feature engineering, and hyperparameter tuning to address imbalanced classes. | scikit-learn, XGBoost, auto-sklearn, Pandas, Seaborn |
 
-# Data Analytics
-| Project Link | Area | Project Description | Tech Stack |    
-|---|---|---|---|
-| 🚨 [Crime & Community](https://public.tableau.com/shared/5YSC4DNFD?:display_count=n&:origin=viz_share_link) | Data Visualization | A data visualization project that merges multiple datasets to investigate crime statistics and their relationships with other socioeconomic factors. | Tableau, SAS Viya | 
-| 🚌 [Public Transport Ridership in Klang Valley](https://app.powerbi.com/view?r=eyJrIjoiY2EyYjg2MWUtNzYwZC00ZTBiLTllNzYtOTU1MWU2YTZlMGI1IiwidCI6ImE2M2JiMWE5LTQ4YzItNDQ4Yi04NjkzLTMzMTdiMDBjYTdmYiIsImMiOjEwfQ%3D%3D&pageName=e18069fdd3acb091f3b2) | Time-series Analysis | An analysis of public transport figures in Klang Valley for prescriptive recommendations, with EDA, modelling and dashboarding. | PowerBI, NumPy, Pandas, scikit-learn, seaborn, Matplotlib | 
-| 🌧️ [Weather Prediction in Kuala Lumpur, Malaysia](https://github.com/Wrynaft/WeatherPrediction) | Time-series Analysis | A data product that analyses historical weather data and forecasts rainfall patterns for Kuala Lumpur. Includes the full data science lifecycle, such as data retrieval, data cleaning, EDA, feature engineering, ML modelling and evaluation. Five regression models were evaluated and compared.  | Streamlit, Pandas, NumPy, scikit-learn, Joblib, Pillow (PIL) | 
-| 💰 [AI-Enhanced Financial/Business Analytics](https://github.com/Wrynaft/FinancialDataMining) | Finance | The project encompasses dataset simulation, feature engineering, predictive modelling, and model interpretation with AI support in the financial domain using Generative AI (GenAI), Large Language Models (LLMs), and Small Language Models (SLMs)  | Pandas, NumPy, Gemini, Mistral, BART, Matplotlib, seaborn, scikit-learn | 
+---
 
-# Java
-| Project Link | Area | Project Description | Tech Stack |    
-|---|---|---|---|
-| 🪴 [Naturum](https://github.com/Naturum/naturum) | Programming | A nature conservation awareness application built with basic Java programming fundamentals, including features like user accounts, quiz system, daily login, point shop, donations and news retrieval from API. | JavaFX, MySQL, Apache Ant, News API | 
-| 🏀 [NBA General Manager Application](https://github.com/Wrynaft/spursmanager) | Data Structure | Web-based management platform designed for the General Manager of the San Antonio Spurs, allowing for comprehensive roster management, city-to-city travel optimization, and player health/contract tracking. This project focuses on data structure concepts using Java such as stacks, queues, sorting, searching, graphs and Depth-First Search. | Angular (Front-End), SpringBoot (Back-End), MySQL, NBA API | 
+## 📊 Data Analytics & Business Intelligence
+*Projects focused on exploratory data analysis, visualizations, and prescriptive business insights.*
+
+| Project | Description | Tech Stack | 
+|---|---|---|
+| 🚌 **[Klang Valley Public Transport Ridership](https://app.powerbi.com/view?r=eyJrIjoiY2EyYjg2MWUtNzYwZC00ZTBiLTllNzYtOTU1MWU2YTZlMGI1IiwidCI6ImE2M2JiMWE5LTQ4YzItNDQ4Yi04NjkzLTMzMTdiMDBjYTdmYiIsImMiOjEwfQ%3D%3D&pageName=e18069fdd3acb091f3b2)** | An analysis of public transport figures in Klang Valley for prescriptive recommendations, featuring deep EDA, data modelling, and interactive dashboarding. | PowerBI, Pandas, scikit-learn, Seaborn, Matplotlib |
+| 🚨 **[Crime & Community](https://public.tableau.com/shared/5YSC4DNFD?:display_count=n&:origin=viz_share_link)** | A data visualization project that merges multiple datasets to investigate crime statistics and their relationships with other socioeconomic factors. | Tableau, SAS Viya | 
+
+---
+
+## ⚙️ Data Engineering
+*Projects focused on big data processing, distributed systems, and pipeline architecture.*
+
+| Project | Description | Tech Stack | 
+|---|---|---|
+| 🗄️ **[Hadoop vs Spark Performance Comparison](https://github.com/Wrynaft/Hadoop-Spark-Comparison)** | Compares the performance of Apache Hadoop (MapReduce) and Apache Spark by implementing and benchmarking three queries on the same dataset to evaluate how these frameworks handle identical workloads. | Apache Hadoop (Java), Apache Spark (Scala) |
+
+---
+
+## 💻 Software Engineering
+*Projects focused on full-stack web development, application design, and data structures.*
+
+| Project | Description | Tech Stack | 
+|---|---|---|
+| 🏀 **[NBA General Manager Application](https://github.com/Wrynaft/spursmanager)** | A web-based management platform for roster management, city-to-city travel optimization, and player tracking. Heavily utilizes data structures and algorithms such as graphs, Depth-First Search (DFS), stacks, and queues. | Angular, Spring Boot, MySQL, Java, NBA API |
+| 🪴 **[Naturum](https://github.com/Naturum/naturum)** | A desktop nature conservation awareness application featuring user accounts, a quiz system, daily logins, a point shop, and live news retrieval via API. | Java, JavaFX, MySQL, Apache Ant, News API |

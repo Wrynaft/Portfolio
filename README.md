@@ -47,6 +47,7 @@ Welcome to my portfolio! This repository serves as a summary of my projects acro
 
 | Project | Description | Tech Stack | 
 |---|---|---|
+| 📈 **[Real-Time Crypto Market Tracker](https://github.com/Wrynaft/Cryptocurrency-Tracker)** | A real-time data engineering pipeline that ingests live cryptocurrency trades from Binance's WebSocket API, streams through Apache Kafka (KRaft), bulk-loads into date-partitioned PostgreSQL via the COPY protocol, transforms into OHLCV candlestick aggregations with incremental dbt models, and visualizes in Apache Superset dashboards. Demonstrates stream processing, backpressure handling, star schema design, and data testing. | Apache Kafka, PostgreSQL, dbt, Apache Superset, Docker, Redis, Python |
 | 🗄️ **[Hadoop vs Spark Performance Comparison](https://github.com/Wrynaft/Hadoop-Spark-Comparison)** | Compares the performance of Apache Hadoop (MapReduce) and Apache Spark by implementing and benchmarking three queries on the same dataset to evaluate how these frameworks handle identical workloads. | Apache Hadoop (Java), Apache Spark (Scala) |
 
 ---
